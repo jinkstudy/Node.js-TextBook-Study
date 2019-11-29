@@ -11,5 +11,6 @@ console.log("new URL():", myURL);
 console.log('url.format():', url.format(myURL));
 console.log('------------------------------');
 const parseUrl = url.parse('http://www.gilbut.co.kr/book/bookList.aspx?sercate1=001001000#anchor');
-console.log('url.parse():', parseUrl);
-console.log('url.format():', url.format(parseUrl));
+console.log('url.parse():', parseUrl); // 주소 분해
+console.log('url.format():', url.format(parseUrl)); // 분해 된 url을 다시 원래 상태로 조립.
+
